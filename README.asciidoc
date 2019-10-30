@@ -1,3 +1,15 @@
-== Saluta
+== Guida git
 
-"salve a tutti"
+=== *_[red]#Vedere dove ci troviamo#_*
+
+export PS1="\w$ "
+
+=== *_[red]#Impostare l'username#_*
+
+git config --global user.name "Mario Rossi"   
+
+=== *_[red]#Impostare l'email#_*
+
+git config --global user.email "mario.rossi@iisgubbio.edu.it"
+
+
