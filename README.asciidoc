@@ -12,4 +12,16 @@ git config --global user.name "Mario Rossi"
 
 git config --global user.email "mario.rossi@iisgubbio.edu.it"
 
+=== *_[red]#Impostare il proxy#_*
 
+git config --global http.proxy http://10.1.1.254:3128
+
+git config --global https.proxy http://10.1.1.254:3128
+
+=== *_[red]#Clonare il file#_*
+
+git clone https://github.com/SoftwareIISGubbio/formaggio.git
+
+=== *_[red]#Controllare lo stato del file#_*
+
+git status 
